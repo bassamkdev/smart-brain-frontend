@@ -1,0 +1,52 @@
+.profile-modal {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close {
+    font-size: 3rem;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.profile-picture {
+    cursor: pointer;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.photo-edit-mode {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.photo-edit-mode-disabled {
+    display: none;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
