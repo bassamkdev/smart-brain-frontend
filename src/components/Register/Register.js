@@ -23,7 +23,7 @@ class Register extends React.Component {
 	}
 
 	onSubmitSignIn = () => {
-		fetch('http://localhost:3000/register', {
+		fetch('https://desolate-beyond-27635.herokuapp.com/register', {
 			method: 'POST',
 			headers: {'content-Type': 'application/json'},
 			body: JSON.stringify({
@@ -36,7 +36,7 @@ class Register extends React.Component {
 		.then(data => {
 			if(data.userId && data.success === true) {
 				window.sessionStorage.setItem('token', data.token)
-				fetch(`http://localhost:3000/profile/${data.userId}`, {
+				fetch(`https://desolate-beyond-27635.herokuapp.com/profile/${data.userId}`, {
 					method: 'get',
 					headers: {
 						'Content-Type': 'application/json',

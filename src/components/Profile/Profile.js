@@ -46,7 +46,7 @@ const Profile = ({ isProfileOpen, togglePortal, loadUser, user, profilePicture }
         if (imageFile){
             await handleImageUpload(imageFile, name)
         }
-        fetch(`http://localhost:3000/profile/${id}`, {
+        fetch(`https://desolate-beyond-27635.herokuapp.com/profile/${id}`, {
             method: 'post',
             headers: {
                 'content-type': 'application/json',
