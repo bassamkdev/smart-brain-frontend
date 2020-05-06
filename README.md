@@ -1,6 +1,6 @@
 # Smart-brain-fronted
-## [Live Version](https://smartbrain-ultimate.herokuapp.com/)
-## [Backend Codebase](https://github.com/bassamkdev/smart-brain-api)
+### [Live Version](https://smartbrain-ultimate.herokuapp.com/)
+### [Backend Codebase](https://github.com/bassamkdev/smart-brain-api)
 ***
 ### Overview
 A single-page web application integrated with [Clarifi API](https://www.clarifai.com/) as the smart brain of the app to detect faces in images uploaded by authenticated users
